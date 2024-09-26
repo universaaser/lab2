@@ -1,0 +1,135 @@
+﻿@charset "utf-8";
+
+/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   Author: Junnan Zhao
+    Date:2024/9/12
+   The Great Lakescape Lodge Layout Styles
+   Filename: lake_layout.css
+
+*/
+
+
+/* Structural Styles */
+
+body {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1020px;
+	min-width: 640px;
+
+}
+
+#nobody {
+
+	display: grid;
+	/* 使用Grid布局 */
+	grid-template-columns: 70% 30%;
+	/* 定义两列的宽度比例 */
+	grid-gap: 0;
+	/* 设置网格线的大小，即网格项之间的间隔 */
+}
+
+body>header>img {
+	width: 100%;
+	display: block;
+	margin: 0;
+
+
+}
+
+#leftcol {
+	grid-column: 1;
+	/* 从第一列开始 */
+	margin-left: 0%;
+	/* 左侧间隔 */
+}
+
+#rightcol {
+	grid-column: 2;
+	margin-right: 0%;
+}
+
+
+footer {
+	clear: both;
+}
+
+address,
+article,
+aside,
+blockquote,
+body,
+cite,
+div,
+dl,
+dt,
+dd,
+em,
+figcaption,
+figure,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+header,
+html,
+img,
+li,
+main,
+nav,
+ol,
+p,
+section,
+span,
+ul {
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+/* Header Navigation */
+
+header>nav {
+	display: table;
+	width: 100%;
+}
+
+header>nav>ul {
+	display: table-row;
+	list-style-type: none;
+}
+
+header>nav>ul>li {
+	display: table-cell;
+	text-align: center;
+}
+
+header>nav a {
+	display: block;
+	width: 100%;
+}
+
+
+/* Section Layout */
+
+section#leftcol aside {
+	width: 42%;
+	float: left;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	margin-bottom: 10px;
+}
+
+
+section#leftcol img {
+	width: 100%;
+	display: block;
+}

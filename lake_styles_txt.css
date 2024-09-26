@@ -1,0 +1,81 @@
+﻿/*
+   New Perspectives on HTML5 and CSS3, 7th Edition
+   Tutorial 2
+   Case Problem 4
+   
+   Great Lakescape Lodge Style Sheet
+   Author: Junnan Zhao
+   Date:2024/9/12
+   
+   Filename: lake_styles.css
+
+*/
+@font-face {
+   font-family: FirstFont;
+   src: url(cac_champagne.woff);
+   src: url(cac_champagne.ttf);
+   font-weight: 1000;
+}
+
+@font-face {
+   font-family: SecondFont;
+   src: url(DobkinPlain.ttf);
+   src: url(DobkinPlain.woff);
+   font-weight: 1000;
+}
+
+#total {
+   font-family: FirstFont;
+   font-size: 3em;
+   margin-top: auto;
+   margin-bottom: auto;
+}
+
+#rightcol h2 {
+   font-family: SecondFont;
+   font-size: 2em;
+   color: aliceblue;
+}
+
+body {
+   background-color: burlywood;
+}
+
+header {
+   background-color: rgba(169, 98, 236, 0.5);
+   color: white;
+   
+}
+
+#leftcol {
+   background-color: black;
+   color: aliceblue;
+}
+
+.Notes {
+   background-color: chocolate;
+}
+
+.Upcoming {
+   background-color: darkgoldenrod;
+}
+
+#rightcol {
+   background-color: rgb(167, 7, 153);
+}
+
+footer {
+   background-color: darkslategray;
+}
+
+blockquote {
+   color: rgb(238, 4, 238);
+}
+
+#rightcol a {
+   color: rgb(45, 10, 10);
+}
+
+a {
+   text-decoration: none;
+}
